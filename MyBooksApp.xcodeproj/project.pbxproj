@@ -12,6 +12,7 @@
 		EC35C5F328044F79001423E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC35C5F228044F79001423E6 /* Assets.xcassets */; };
 		EC35C5F628044F79001423E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC35C5F528044F79001423E6 /* Preview Assets.xcassets */; };
 		EC35C6032804507A001423E6 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = EC35C6022804507A001423E6 /* Data.json */; };
+		EC35C6052804544D001423E6 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35C6042804544D001423E6 /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EC35C5F228044F79001423E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC35C5F528044F79001423E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC35C6022804507A001423E6 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		EC35C6042804544D001423E6 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		EC35C5FF28045027001423E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EC35C6042804544D001423E6 /* BookData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			files = (
 				EC35C5F128044F78001423E6 /* MainView.swift in Sources */,
 				EC35C5EF28044F78001423E6 /* MyBooksAppApp.swift in Sources */,
+				EC35C6052804544D001423E6 /* BookData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
