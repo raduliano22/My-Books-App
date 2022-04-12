@@ -18,7 +18,7 @@ struct MainView: View {
                 LazyVStack(alignment:.leading, spacing: 30) {
                     ForEach(model.books) { book in
                         NavigationLink {
-                            //BookScreen
+                            BookScreenView(book: book)
                         } label: {
                             BookPreview(book: book)
                                 .padding([.leading,.trailing], 20)
