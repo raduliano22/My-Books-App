@@ -16,6 +16,8 @@
 		EC35C6072804558A001423E6 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35C6062804558A001423E6 /* BookViewModel.swift */; };
 		EC35C609280455FB001423E6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35C608280455FB001423E6 /* DataService.swift */; };
 		EC35C60D28045A1D001423E6 /* BookPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35C60C28045A1D001423E6 /* BookPreview.swift */; };
+		EC35C60F28045D75001423E6 /* BookScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35C60E28045D75001423E6 /* BookScreenView.swift */; };
+		EC35C6112804623E001423E6 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35C6102804623E001423E6 /* TextScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		EC35C6062804558A001423E6 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
 		EC35C608280455FB001423E6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EC35C60C28045A1D001423E6 /* BookPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPreview.swift; sourceTree = "<group>"; };
+		EC35C60E28045D75001423E6 /* BookScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookScreenView.swift; sourceTree = "<group>"; };
+		EC35C6102804623E001423E6 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 			children = (
 				EC35C5F028044F78001423E6 /* MainView.swift */,
 				EC35C60C28045A1D001423E6 /* BookPreview.swift */,
+				EC35C60E28045D75001423E6 /* BookScreenView.swift */,
+				EC35C6102804623E001423E6 /* TextScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,8 +199,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC35C6112804623E001423E6 /* TextScreen.swift in Sources */,
 				EC35C5F128044F78001423E6 /* MainView.swift in Sources */,
 				EC35C6072804558A001423E6 /* BookViewModel.swift in Sources */,
+				EC35C60F28045D75001423E6 /* BookScreenView.swift in Sources */,
 				EC35C5EF28044F78001423E6 /* MyBooksAppApp.swift in Sources */,
 				EC35C6052804544D001423E6 /* BookData.swift in Sources */,
 				EC35C609280455FB001423E6 /* DataService.swift in Sources */,
